@@ -1,0 +1,193 @@
+cnc@debian:~$ sudo pip3 install pyuic5-tool
+[sudo] password for cnc: 
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+cnc@debian:~$ 
+cnc@debian:~$ 
+cnc@debian:~$ 
+cnc@debian:~$ cd Desktop/
+cnc@debian:~/Desktop$ cd qt_study/
+all_the_source/               OpenGLWithQt-Tutorial/        snake3d/                      ui_files/                     
+basic/                        qt5-examples/                 system_command_run_with_html/ 
+cnc@debian:~/Desktop$ cd qt_study/
+all_the_source/               OpenGLWithQt-Tutorial/        snake3d/                      ui_files/                     
+basic/                        qt5-examples/                 system_command_run_with_html/ 
+cnc@debian:~/Desktop$ cd 
+anime/              c/                  FIILES_IMO/         GIT_MAIN/           linux-cnc/          MOVE_OTHERS/        QtVCP/              sl/                 TXT/
+ard/                CAR/                film/               hack_info/          linuxcnc_comp/      pd/                 rio/                soft/               upload/
+Arduino_cmd/        CNC_IDEA/           films/              hug/                linuxcnc_temp/      pdf/                run_curl/           t2/                 VID_STUDY/
+BAckUP_files/       CPP/                Game/               iso_FILE/           LPT _TEST/          Qt_plugin/          SAMSUNg_TAB/        tcl/                _web_page/
+bash/               Daiman444_BAckup/   GAME_NUMBER_GUESS/  KIN_ROBOT/          MOVE_GIT/           qt_study/           share/              temp/               
+BEST_RUN_TIME_CODE/ driver-build/       gdb/                L_CNC_GUI/          MOVE_IMO_01/        Qt_ui/              sim/                temp3/              
+cnc@debian:~/Desktop$ cd Qt
+Qt_plugin/ Qt_ui/     QtVCP/     
+cnc@debian:~/Desktop$ cd Qt_ui/
+cnc@debian:~/Desktop/Qt_ui$ ls
+test.ui
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ 
+cnc@debian:~/Desktop/Qt_ui$ git clone "https://github.com/Abdelatief/Pyuic5-Tool.git"
+Cloning into 'Pyuic5-Tool'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 1), reused 8 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (8/8), 9.89 KiB | 316.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+cnc@debian:~/Desktop/Qt_ui$ cd Pyuic5-Tool/
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ ls
+src
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ cd src/
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ ls
+converter.py  __init__.py  LICENSE  README.md
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py 
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /
+bin/            dev/            initrd.img      lib32/          media/          proc/           sbin/           tmp/            vmlinuz         
+boot/           etc/            initrd.img.old  lib64/          mnt/            root/           srv/            usr/            vmlinuz.old     
+.cache/         home/           lib/            lost+found/     opt/            run/            sys/            var/            
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /home/cnc/
+Display all 117 possibilities? (y or n)
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /home/cnc/Desktop/Qt_
+Qt_plugin/ Qt_ui/     
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /home/cnc/Desktop/Qt_ui/
+Pyuic5-Tool/ test.ui      
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /home/cnc/Desktop/Qt_ui/test.ui /home/cnc/Desktop/Qt_ui/test.py
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ ls
+converter.py  __init__.py  LICENSE  README.md
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ python3 converter.py /home/cnc/Desktop/Qt_ui/ /home/cnc/Desktop/Qt_ui/
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ ls
+converter.py  __init__.py  LICENSE  README.md
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ cd ..
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ ls
+src
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ cd 
+.git/ src/  
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ cd src/
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ ls
+converter.py  __init__.py  LICENSE  README.md
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ sudo apt-get insatll pyuic5
+E: Invalid operation insatll
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ sudo apt-get install pyuic5
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package pyuic5
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ sudo apt install python3-pyqt5 python3-pyqt5.qttools
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package python3-pyqt5.qttools
+E: Couldn't find any package by glob 'python3-pyqt5.qttools'
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ pyuic5 --version
+Python User Interface Compiler 5.15.9 for Qt version 5.15.8
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool/src$ cd ..
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ ls
+src
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ 
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ 
+cnc@debian:~/Desktop/Qt_ui/Pyuic5-Tool$ cd ..
+cnc@debian:~/Desktop/Qt_ui$ ls
+Pyuic5-Tool  test.ui
+cnc@debian:~/Desktop/Qt_ui$ pyuic5 --help
+Usage: pyuic5 [options] <ui-file>
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -p, --preview         show a preview of the UI instead of generating code
+  -o FILE, --output=FILE
+                        write generated code to FILE instead of stdout
+  -x, --execute         generate extra code to test and display the class
+  -d, --debug           show debug output
+  -i N, --indent=N      set indent width to N spaces, tab if N is 0 [default:
+                        4]
+
+  Code generation options:
+    --import-from=PACKAGE
+                        generate imports of pyrcc5 generated modules in the
+                        style 'from PACKAGE import ...'
+    --from-imports      the equivalent of '--import-from=.'
+    --resource-suffix=SUFFIX
+                        append SUFFIX to the basename of resource files
+                        [default: _rc]
+cnc@debian:~/Desktop/Qt_ui$ ls
+Pyuic5-Tool  test.ui
+cnc@debian:~/Desktop/Qt_ui$ pyuic5 test.ui test.py
+Error: one input ui-file must be specified
+cnc@debian:~/Desktop/Qt_ui$ pyuic5 test.ui -o test.py
+cnc@debian:~/Desktop/Qt_ui$ ls
+Pyuic5-Tool  test.py  test.ui
+cnc@debian:~/Desktop/Qt_ui$ python3 test.py 
+[DEFAULT][INFO]  Logging to: /home/cnc/default.log (logger.py:106)
+cnc@debian:~/Desktop/Qt_ui$ ls
+Pyuic5-Tool  test.py  test.ui
+cnc@debian:~/Desktop/Qt_ui$ cat test.py 
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'test.ui'
+#
+# Created by: PyQt5 UI code generator 5.15.9
+#
+# WARNING: Any manual changes made to this file will be lost when pyuic5 is
+# run again.  Do not edit this file unless you know what you are doing.
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(233, 294)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.dial = Dial(self.centralwidget)
+        self.dial.setGeometry(QtCore.QRect(60, 160, 100, 100))
+        self.dial.setObjectName("dial")
+        self.lcdnumber = LCDNumber(self.centralwidget)
+        self.lcdnumber.setGeometry(QtCore.QRect(90, 50, 64, 23))
+        self.lcdnumber.setObjectName("lcdnumber")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 233, 22))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        self.dial.valueChanged['int'].connect(self.lcdnumber.show) # type: ignore
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+from qtvcp.widgets.simple_widgets import Dial, LCDNumber
+cnc@debian:~/Desktop/Qt_ui$ 
+
